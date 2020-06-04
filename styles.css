@@ -390,8 +390,11 @@ a {
 
 /* For phone*/
 
-@media screen and (max-width: 768px) {
-    header {
+@media screen and (max-width: 748px) {
+  body {
+padding:0.8rem;
+} 
+ header {
         background: white;
         min-width: 100%;
         padding: 1rem 2rem;
