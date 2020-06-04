@@ -12,7 +12,7 @@ body {
 header {
     background: white;
     min-width: 100%;
-    padding: 1rem 2rem;
+    z-index:1;
 }
 
 
@@ -391,9 +391,7 @@ a {
 /* For phone*/
 
 @media screen and (max-width: 748px) {
-  body {
-padding:0.8rem;
-} 
+
  header {
         background: white;
         min-width: 100%;
@@ -490,7 +488,7 @@ padding:0.8rem;
     .footer-container {
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
         padding: 2%;
     }
     .footer-container div {
